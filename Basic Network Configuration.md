@@ -21,12 +21,14 @@ The network connects multiple PCs and a laptop via switches, as per the provided
 ## Network Overview
 
 **Router**: RouterDoInferno (Cisco 2911)
+
 **Interfaces**:
 - GigabitEthernet0/0: 10.255.255.1/24 (to Fa0/5 switch)
 - GigabitEthernet0/1: 172.31.255.1/24 (to Fa0/4 switch)
 - GigabitEthernet0/2: 192.168.29.1/24 (to Fa0/3 switch)
 
 **Devices**: PCs (PC1 to PC12) and Laptop-PT across switches.
+
 **Diagram Reference**: Star topology with router at center.
 
 ## Step-by-Step Configuration
