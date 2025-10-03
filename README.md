@@ -6,7 +6,7 @@ Bem-vindo ao meu portfolio GitHub para o curso de Network & Cybersecurity Admini
 
 ### 1. Configuração de Rede Básica
 - **Descrição**: Este projeto demonstra a configuração de uma rede com um router Cisco, incluindo atribuição de IPs, configuração de DHCP e conexão de múltiplos dispositivos (PCs e switches). A rede inclui três sub-redes: 10.255.255.0/24, 172.31.255.0/24 e 192.168.29.0/24, ligadas a um router central.
-- **Ficheiros**: [nome_do_ficheiro_config.txt](link_para_o_ficheiro)
+- **Ficheiros**: [topology.webp](link_para_o_ficheiro)
 - **Estado**: Em progresso
 
 ## Notas
