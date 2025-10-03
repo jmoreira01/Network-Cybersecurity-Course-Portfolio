@@ -92,3 +92,7 @@ The network connects multiple PCs and a laptop via switches, as per the provided
 ```
 > show running-config - Verify configuration.
 ```
+
+**At the end**:
+
+* DHCP Requesting - IP configuration > Desktop > IP Configuration > Request DHCP
