@@ -5,7 +5,7 @@ The network connects multiple PCs and a laptop via switches, as per the provided
 ## Notes
 - All commands tested in a simulated environment in Cisco Packet Tracer.
 - Future projects will include firewalls, VLANs, and traffic analysis.
-
+![alt text](https://github.com/jmoreira01/Network-Cybersecurity-Course-Portfolio/blob/main/topology.webp)
 **Files**: [Network Diagram](network_diagram.png)
 ```
 > enable
