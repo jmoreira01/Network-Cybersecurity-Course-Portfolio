@@ -1,10 +1,6 @@
 # Networking Basic Configuration
 This project demonstrates the configuration of a Cisco 2911 router (RouterDoInferno) with three subnets (10.255.255.0/24, 172.31.255.0/24, 192.168.29.0/24) and DHCP for IP management. 
 The network connects multiple PCs and a laptop via switches, as per the provided diagram.
-
-## Notes
-- All commands tested in a simulated environment in Cisco Packet Tracer.
-- Future projects will include firewalls, VLANs, and traffic analysis.
   
 ![alt text](https://github.com/jmoreira01/Network-Cybersecurity-Course-Portfolio/blob/main/topology.webp)
 
