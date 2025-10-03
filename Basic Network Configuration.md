@@ -39,7 +39,7 @@ The network connects multiple PCs and a laptop via switches, as per the provided
     password MyConsolePassword
     exit
 ```
-## Configure first subnet
+## Interface GigabitEthernet0/0 (Subnet 10.255.255.0/24) configuration
 ```
 > enable secret MYEnablePassword - Set Privileged EXEC password.
 > service password-encryption - Encrypt passwords.
@@ -55,7 +55,7 @@ The network connects multiple PCs and a laptop via switches, as per the provided
     > default-router 10.255.255.1
     > exit
 ```
-## Configure second subnet
+## Interface GigabitEthernet0/1 (Subnet 172.31.255.0/24) configuration
 ```
 > interface GigabitEthernet0/1 - Configure second subnet.
   > ip address 172.31.255.1 255.255.255.0
@@ -69,7 +69,7 @@ The network connects multiple PCs and a laptop via switches, as per the provided
   > default-router 172.31.255.1
   > exit
 ```
-## Configure third subnet
+## Interface GigabitEthernet0/2 (Subnet 192.168.29.0/24) configuration
 ```
 > interface GigabitEthernet0/2 - Configure third subnet.
   > ip address 192.168.29.1 255.255.255.0
