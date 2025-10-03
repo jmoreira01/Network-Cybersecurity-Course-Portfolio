@@ -1,14 +1,13 @@
 # Portfolio - Network & Cybersecurity Administration
 
-Bem-vindo ao meu portfolio GitHub para o curso de Network & Cybersecurity Administration! Aqui vou listar todos os meus projectos relacionados com Networking e Cybersecurity, com uma breve descrição de cada um.
+Welcome to my GitHub portfolio for the Network & Cybersecurity Administration course! Here, I will list all my projects related to Networking and Cybersecurity, each with a brief description.
 
-## Projetos
+## Projects
 
-### 1. Configuração de Rede Básica
-- **Descrição**: Este projeto demonstra a configuração de uma rede com um router Cisco, incluindo atribuição de IPs, configuração de DHCP e conexão de múltiplos dispositivos (PCs e switches). A rede inclui três sub-redes: 10.255.255.0/24, 172.31.255.0/24 e 192.168.29.0/24, ligadas a um router central.
-- **Ficheiros**: [Network Diagram](https://github.com/jmoreira01/Network-Cybersecurity-Course-Portfolio/blob/main/topology.webp)
-- **Estado**: Em progresso
+### 1. Basic Network Configuration
+- **Description**: This project demonstrates the configuration of a network using a Cisco router, including IP assignment, DHCP setup, and connectivity for multiple devices (PCs and switches). The network features three subnets: 10.255.255.0/24, 172.31.255.0/24, and 192.168.29.0/24, all connected to a central router.
+- **Files**: [Network Diagram](topology.webp)
 
-## Notas
-- Todos os comandos e configurações foram testados num ambiente simulado.
-- Futuros projetos incluirão firewalls, VLANs e análise de tráfego.
+## Notes
+- All commands and configurations were tested in a simulated environment.
+- Future projects will include firewalls, VLANs, and traffic analysis.
