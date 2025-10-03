@@ -37,18 +37,18 @@ The network connects multiple PCs and a laptop via switches, as per the provided
 > configure terminal - Enter Global Configuration mode.
 > hostname RouterDoInferno - Rename the device.
 > line console 0 - Configure console login.
-    login
-    password MyConsolePassword
-    exit
+    > login
+    > password MyConsolePassword
+    > exit
 ```
 ## Interface GigabitEthernet0/0 (Subnet 10.255.255.0/24) configuration
 ```
 > enable secret MYEnablePassword - Set Privileged EXEC password.
 > service password-encryption - Encrypt passwords.
 > interface GigabitEthernet0/0 - Configure first subnet.
-    ip address 10.255.255.1 255.255.255.0
-    no shutdown
-    exit
+    > ip address 10.255.255.1 255.255.255.0
+    > no shutdown
+    > exit
 ```
 ## Set up DHCP for 10.255.255.0/24 - "ESQUERDA"
 ```
@@ -60,38 +60,38 @@ The network connects multiple PCs and a laptop via switches, as per the provided
 ## Interface GigabitEthernet0/1 (Subnet 172.31.255.0/24) configuration
 ```
 > interface GigabitEthernet0/1 - Configure second subnet.
-  > ip address 172.31.255.1 255.255.255.0
-  > no shutdown
-  > exit
+    > ip address 172.31.255.1 255.255.255.0
+    > no shutdown
+    > exit
 ```
 ## Set up DHCP for 10.255.255.0/24 - "MEIO"
 ```
 > ip dhcp pool Meio - Set up DHCP for 172.31.255.0/24.
-  > network 172.31.255.0 255.255.255.0
-  > default-router 172.31.255.1
-  > exit
+    > network 172.31.255.0 255.255.255.0
+    > default-router 172.31.255.1
+    > exit
 ```
 ## Interface GigabitEthernet0/2 (Subnet 192.168.29.0/24) configuration
 ```
 > interface GigabitEthernet0/2 - Configure third subnet.
-  > ip address 192.168.29.1 255.255.255.0
-  > no shutdown
-  > exit
+    > ip address 192.168.29.1 255.255.255.0
+    > no shutdown
+    > exit
 ```
 ## Set up DHCP for 10.255.255.0/24 - "DIREITA"
 ```
 > ip dhcp pool Direita - Set up DHCP for 192.168.29.0/24.
-  > network 192.168.29.0 255.255.255.0
-  > default-router 192.168.29.1
-  > exit
+    > network 192.168.29.0 255.255.255.0
+    > default-router 192.168.29.1
+    > exit
 ```
 ## Banner config
 ```
 > banner motd # 
-  > " THIS IS A CONSOLE BANNER #" - Add banner
+    > " THIS IS A CONSOLE BANNER #" - Add banner
 ```
 
 ## Checking configuration 
 ```
-show running-config - Verify configuration.
+> show running-config - Verify configuration.
 ```
