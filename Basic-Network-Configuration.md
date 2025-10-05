@@ -33,15 +33,15 @@ The network connects multiple PCs and a laptop via switches, as per the provided
 > enable - Access Privileged EXEC mode.
 > configure terminal - Enter Global Configuration mode.
 > hostname RouterDoInferno - Rename the device.
+> enable secret MYEnablePassword - Set Privileged EXEC password.
 > line console 0 - Configure console login.
     > login
     > password MyConsolePassword
     > exit
+> service password-encryption - Encrypt passwords.
 ```
 ## Interface GigabitEthernet0/0 (Subnet 10.255.255.0/24) configuration
 ```
-> enable secret MYEnablePassword - Set Privileged EXEC password.
-> service password-encryption - Encrypt passwords.
 > interface GigabitEthernet0/0 - Configure first subnet.
     > ip address 10.255.255.1 255.255.255.0
     > no shutdown
