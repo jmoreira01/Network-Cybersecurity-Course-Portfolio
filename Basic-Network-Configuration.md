@@ -17,7 +17,7 @@ The network connects multiple PCs and a laptop via switches, as per the provided
 
 **Diagram Reference**: Star topology with router at center.
 
-## Step-by-Step Configuration
+## Initial Configuration
 ```
 > enable - Access Privileged EXEC mode.
 > configure terminal - Enter Global Configuration mode.
