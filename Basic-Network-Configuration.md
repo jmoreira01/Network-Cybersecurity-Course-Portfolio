@@ -4,17 +4,6 @@ The network connects multiple PCs and a laptop via switches, as per the provided
   
 ![alt text](https://github.com/jmoreira01/Network-Cybersecurity-Course-Portfolio/blob/main/topology.webp)
 
-```
-> enable
-> configure terminal
-> line console 0
-> login
-> password MyPaSSwOrD
-> exit
-> enable secret MYeNABLEpAssWoRd
-> service password-encryption
-```
-
 ## Network Overview
 
 **Router**: RouterDoInferno (Cisco 2911)
@@ -35,10 +24,12 @@ The network connects multiple PCs and a laptop via switches, as per the provided
 > hostname RouterDoInferno - Rename the device.
 > enable secret MYEnablePassword - Set Privileged EXEC password.
 > line console 0 - Configure console login.
-    > login
     > password MyConsolePassword
+    > login
     > exit
 > service password-encryption - Encrypt passwords.
+> banner motd #
+  > " THIS IS A CONSOLE BANNER #" - Add banner
 ```
 ## Interface GigabitEthernet0/0 (Subnet 10.255.255.0/24) configuration
 ```
@@ -82,12 +73,6 @@ The network connects multiple PCs and a laptop via switches, as per the provided
     > default-router 192.168.29.1
     > exit
 ```
-## Banner config
-```
-> banner motd # 
-    > " THIS IS A CONSOLE BANNER #" - Add banner
-```
-
 ## Checking configuration 
 ```
 > show running-config - Verify configuration.
